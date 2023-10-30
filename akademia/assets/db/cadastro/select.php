@@ -2,7 +2,7 @@
 
     include_once("../conn.php");
 
-    $Telefone = $_GET["Telefone"];
+    $Telefone = $_GET["telefone"];
 
     $sql = "SELECT * FROM cadastro WHERE Telefone = '$Telefone'";
     
