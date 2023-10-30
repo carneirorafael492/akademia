@@ -7,6 +7,19 @@
     padding: 0;
     
 }
+
+header
+{
+    display: flex;
+}
+
+
+#imagens
+{
+    
+padding-left: 1050px;
+
+}
  
 h2
 {
@@ -32,7 +45,7 @@ a
 {
     text-decoration: none;
     color: #000;
-    font-size: 40px;
+    font-size: 18px;
     font-weight: 900;
     margin-left: 18px;
 }

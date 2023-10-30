@@ -14,9 +14,18 @@
 
 header
 {
-
+    display: flex;
+    
 
 }
+
+#imagens
+{
+    
+padding-left: 1050px;
+
+}
+
 
 nav
 
@@ -27,6 +36,7 @@ padding: 20px;
 margin: 10px;
 
 display: flex;
+
 
 align-items: center; 
 
@@ -41,7 +51,7 @@ h3{
 a
 
 {
-
+  
     text-decoration: none;
 
     color: #000;
@@ -51,6 +61,7 @@ a
     font-weight: bolder;
 
     margin-left: 18px;
+    font-size: 18px;
 
 }
 
@@ -170,23 +181,96 @@ h3
 
 }
 
-.image
+.texto
 {
-    
+    margin: 20px;
+}
+
+
+
+.banner
+{
+    width: 100%;
 }
 
 
 .preto
 {
+  
+   gap: 60px;
+
+}
+
+.class-container
+{
+
+    padding: 20px;
+    background-color: #FAD824;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.baixo
+{
     background-color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.btn
+{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid #FAD824;
+    background-color: #FAD824 ;
+    border-radius: 20px;
+    width: 300px;
+   
+  
+}
+
+.h22
+{
+    padding: 30px;
+    font-size: 50px;
+}
+
+
+h3
+{
+padding: 20px;
+}
+
+.imagem
+{
+    width: 450px;
+    height: 400px;
 }
 
 footer
 
 {
 
-    text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 30px;
 
     margin: 30px;
 
+}
+
+.corpo
+{
+    height: 800px;
+background-color: #2c2c2c;
 }
