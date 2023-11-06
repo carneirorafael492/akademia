@@ -16,10 +16,22 @@
         <label>Telefone</label>
         <input type="Telefone" name="Telefone">
         <input type="submit" value="Buscar">
+
     </form>
+
+    <section>
+    <?php
+
+        include_once("assets/db/cadastro/list.php");
+
+    ?>
+
     <?php
         include_once("assets/componentes/rodape.html");
     ?>
+
+    
+    </section>
 </body>
 </html>
    

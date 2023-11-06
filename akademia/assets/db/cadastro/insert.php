@@ -16,8 +16,9 @@
         $email = $_REQUEST['email'];
         $Telefone = $_REQUEST['Telefone'];
         $Endereco = $_REQUEST['Endereco'];
+        $senha = md5($_REQUEST['senha']); //criptografando os dados com MD5
 
-        $sql = "INSERT INTO cadastro (nomecompleto, email, Telefone, Endereco) VALUES ('$nomecompleto', '$email', ' $Telefone', '$Endereco')";
+        $sql = "INSERT INTO cadastro (nomecompleto, email, Telefone, Endereco, senha) VALUES ('$nomecompleto', '$email', ' $Telefone', '$Endereco', '$senha')";
 
         if ($conn->query($sql) == TRUE)
         {

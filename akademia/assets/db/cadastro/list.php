@@ -1,6 +1,6 @@
 <?php
 
-    include_once("../conn.php");
+    include_once("assets/db/conn.php");
 
     $sql = "SELECT * FROM cadastro";
     
