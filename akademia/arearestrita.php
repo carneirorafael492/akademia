@@ -14,14 +14,15 @@
 
             echo $_SESSION["nome"];
 
-            // if (isset($_SESSION["nome"]))
-            // {               
-            //     echo $_SESSION["nome"];
-            // }
-            // else
-            // {
-            //     header("Location: acesso.php");
-            // }
+            if (isset($_SESSION["nome"]))
+            {               
+                echo $_SESSION["nome"];
+            }
+            else
+            {
+                header("Location: acesso.php");
+            }
+            
 
           
         ?>
