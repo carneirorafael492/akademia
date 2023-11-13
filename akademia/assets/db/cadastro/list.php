@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -7,10 +7,10 @@
     <title>Document</title>
     <script src="../../js/util.js"></script>
 </head>
-<body>
+<body> -->
 <?php
 
-        include_once("../conn.php");
+        include_once("assets/db/conn.php");
 
         $sql = "SELECT * FROM cadastro";
 
@@ -46,5 +46,5 @@
 
 ?>
     
-</body>
-</html>
+<!-- </body>
+</html> -->

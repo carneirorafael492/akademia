@@ -8,11 +8,16 @@
     <link  rel="stylesheet" href="assets/css/css3.css">
 </head>
 <body>
-<p>Bem vindo(a)
+    
+<p>Bem vindo(a) 
+
+
         <?php
             session_start();
 
-            echo $_SESSION["nome"];
+            
+
+            
 
             if (isset($_SESSION["nome"]))
             {               
@@ -23,10 +28,16 @@
                 header("Location: acesso.php");
             }
             
+            
 
           
         ?>
+        
+    <a href="buscar.php">buscar usuario</a>
+
     </p>
+
+      
 
     <?php
         include_once("assets/componentes/cabecalho.html");

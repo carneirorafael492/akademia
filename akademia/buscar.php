@@ -14,7 +14,7 @@
      <form action="assets/db/cadastro/select.php">
         <h2>Buscar usuário</h2>
         <label>Telefone</label>
-        <input type="Telefone" name="Telefone">
+        <input type="text" name="telefone">
         <input type="submit" value="Buscar">
 
     </form>
