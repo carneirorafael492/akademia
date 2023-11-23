@@ -29,8 +29,8 @@
                 echo "<td>" . $linha["email"] . "</td>";
                 echo "<td>" . $linha["telefone"] . "</td>";
                 echo "<td>" . $linha["endereco"] . "</td>";
-                echo "<td> <a href='select.php?telefone=" . $linha["telefone"] . "'>Detalhes</a> </td>";
-                echo "<td> <a href='delete.php?id=" . $linha["idcadastro"] . "' onClick='return confirmar()' >Excluir</a> </td>";
+                echo "<td> <a href='assets/db/cadastro/select.php?telefone=" . $linha["telefone"] . "'>Detalhes</a> </td>";
+                echo "<td> <a href='assets/db/cadastro/delete.php?id=" . $linha["idcadastro"] . "' onClick='return confirmar()' >Excluir</a> </td>";
                 echo "</tr>"; //fechar a linha
             }    
 
